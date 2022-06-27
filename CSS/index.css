@@ -1,0 +1,56 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f3f3f3;
+    position: relative;
+    min-height: 100vh;
+}
+
+a.navbar-brand {
+    width: 100px;
+}
+
+.uni {
+    color: black;
+}
+
+.navbar-nav {
+    width: fit-content;
+}
+
+.nav-item {
+    font-size: 14px;
+}
+
+.navbar-toggler:active {
+    box-shadow: 0;
+}
+
+.nav-item .nav-link.active{
+background-color: #e7e7e7;
+}
+
+form input {
+    width: 100px;
+}
+
+.btn-calc {
+    background-color: #337ab7;
+}
+
+.following a {
+    font-size: 12px;
+}
+
+.following a img {
+    width: 80px;
+}
+
+.btn-date {
+    display: none;
+}
+
+footer {
+    background-color: #97C4B8;
+    position: absolute;
+    bottom: 0;
+}

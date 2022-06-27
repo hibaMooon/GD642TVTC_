@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="طريقة معرفة النسبة الموزونة للراغبين بالتقديم على الكليات التقنية">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <title>calc</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light py-0 bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand border-0 " href="#"><img src="imgs/logo.jpeg" class="w-75" alt="Logo Page"></a>
+            <button class="navbar-toggler outline-0 border-0 " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link py-4 active" href="#">احسب نسبتك الموزونة</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link py-4"
+                            href="https://drive.google.com/file/d/11gdSVkSeX6imxkETOViHPe0aWk8W7qJw/view?usp=drivesdk">من
+                            هم متطوعي الكلية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link py-4" aria-current="page" href="https://www.flowcode.com/page/gd64222">وسائل
+                            التواصل مع المتطوعين</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link py-4" href="mailto:gd64422@gmail.com">تواصل مع إدارة الفريق</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="ad my-5 text-center bg-gray">
+        <div class="container px-3">
+            <div class="row justify-content-center ">
+                <div class="col-lg-8 col-12 px-4">
+                    <h1>طريقة معرفة النسبة الموزونة للراغبين بالتقديم <div class="d-flex justify-content-start mb-2">
+                        </div>على الكليات التقنية
+                    </h1>
+
+                </div>
+                <div class="col-lg-6 col-10 my-4">
+                    <h1 class="mb-3">احسب/ي نسبتك الموزونة بسهولة </h1>
+                    <div class="d-flex justify-content-start mb-2">
+                        <div class="select-type fs-4">
+                            <label class="fw-bold ms-5">حدد مسارك</label>
+                            <select id="type" class="py-1 px-2">
+                                <option value="الدبلوم العلمي صباحي" selected>الدبلوم العلمي صباحي</option>
+                                <option value="صباحي-مسائي بكالوريوس">صباحي-مسائي بكالوريوس</option>
+                                <option value="">الدبلوم الأدبي الصباحي</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center flex-column flex-md-row">
+                        <div class="col-lg-6 col-10 border border-1 mx-auto">
+                            <form class="degree">
+                                <p class="fw-bold">درجاتك</p>
+                                <div class="d-flex justify-content-start mb-2">
+                                    <label class="fw-bold ms-auto" for="Diploma-rate" id="Diploma-text">مدرسة:</label>
+                                    <input type="text" id="Diploma-rate">
+                                </div>
+                                <div class="d-flex justify-content-start mb-2">
+                                    <label class="fw-bold ms-auto" for="en" id="en-text">قدرات:</label>
+                                    <input type="text" id="en">
+                                </div>
+                                <div class="d-flex justify-content-start mb-2">
+                                    <label class="fw-bold ms-auto" for="GraduationYear"
+                                        id="GraduationYear-text">التحصيلي:</label>
+                                    <input type="text" id="GraduationYear">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-lg-6 col-10 border border-1 mx-auto">
+                            <form class="uni">
+                                <p class="fw-bold">النسب المحددة من الجامعة</p>
+                                <div class="d-flex justify-content-start mb-2">
+                                    <label class="fw-bold ms-auto w-50" id="Diploma-text">مدرسة:</label>
+                                    <label class="fw-bold ms-auto w-50" id="Diploma-rate">50%</label>
+
+                                </div>
+                                <div class="d-flex justify-content-start mb-2">
+                                    <label class="fw-bold ms-auto w-50" id="en-text">قدرات:</label>
+                                    <label class="fw-bold ms-auto w-50" id="en">30%</label>
+                                </div>
+                                <div class="d-flex justify-content-start mb-2">
+                                    <label class="fw-bold ms-auto w-50" id="GraduationYear-text">التحصيلي:</label>
+                                    <label class="fw-bold ms-auto w-50" id="GraduationYear">20%</label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <p class="fs-5 my-2"><span class="text-danger fs-4">ملاحظة: </span>
+                    </p>
+                    <p class="fs-5 my-2">
+                        تنبيه للبكالوريوس : يحصل حديث التخرج على النسبه كامله 10% وتتناقص النسبه عن كل سنه سابقه للتخرج
+                        2%
+                        <br><span class="text-danger fs-4"> بمعنى : </span>
+                        اذا انت حديث تخريج تحسب ال 10% كامله
+                        اذا سبق تخرجت قبل سنه تنقص 2% وهكذا
+                    </p>
+                    <button class="btn w-auto my-3 btn-primary btnCalc border-0">احسب</button>
+                    <p class="result fw-bold "></p>
+                    <a href="https://t.me/GD64222/3514"
+                        class="btn w-auto mt-3 btn-info btn-date border-0 text-white py-2 ">مواعيد التسجيل في
+                        الكليات</a>
+                    <p class="fs-5 my-2"><span class="text-danger fs-4">معلومات عامة: </span>
+                    </p>
+                    <ol type="1" class="text-end">
+                        <li class="text-danger fs-4">مرحلة الدبلوم
+                            <ul class="list-unstyled">
+                                <li class="fs-5 my-2 text-black">⁃ القدرات و التحصيلي للمفاضله فقط ولا تمنعك من التقديم
+                                </li>
+                                <li class="fs-5 my-2 text-black">⁃ الكفايات غير مطلوب للتقديم في الدبلوم
+
+                                </li>
+                                <li class="fs-5 my-2 text-black">⁃ المسائي برسوم ٤٠٠ ريال للساعه و الصباحي مجاني تاخذ
+                                    مكافأة ٩٩٠ ريال
+
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="text-danger fs-4">مرحلة البكالوريوس
+                            <ul class="list-unstyled">
+                                <li class="fs-5 my-2 text-black">⁃ البكالوريوس تقدم عليه بعد ما تنتهي من الدبلوم
+
+                                </li>
+                                <li class="fs-5 my-2 text-black">⁃ البكالوريوس الصباحي مجاني و المسائي برسوم
+
+                                </li>
+                                <li class="fs-5 my-2 text-black">⁃ البكالوريوس المسائي تدفع ٥٥٠ ريال في الساعة
+                                </li>
+                                <li class="fs-5 my-2 text-black">⁃ مطلوب اختبار STEP او برنامج اللغه الانجليزي المكثف للمفاضله في البكالوريوس
+                                </li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="following mt-0 pb-5">
+        <div class="container">
+            <div class="row justify-content-center text-center pb-5">
+                <div class="col-10 mb-4">
+                    <div class="row justify-content-around">
+                        <div class="col-lg-4 col-8">
+                            <img src="imgs/f1.jpg" class="img-fluid h-100" alt="">
+                        </div>
+                        <div class="col-lg-4 col-8">
+                            <img src="imgs/356e22ee-e782-4c56-afe5-e73901e7e7bb.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+                <h2>لمتابعة الأخبار الحصرية وموعد التقديم تابعنا عبر حساباتنا
+                </h2>
+                <div class="col-7 d-flex flex-lg-row flex-column justify-content-around align-items-center">
+                    <a href="https://t.me/GD64222"
+                        class="text-black text-decoration-none d-flex flex-column align-items-center my-3"
+                        target="_blank">
+                        <img src="imgs/Telegram_logo.svg.webp" class="img-fluid" alt="fb-logo">
+                        الارشيف
+                    </a>
+                    <a href="https://t.me/GD642221"
+                        class="text-black text-decoration-none d-flex flex-column align-items-center  my-3"
+                        target="_blank">
+                        <img src="imgs/Telegram_logo.svg.webp" class="img-fluid" alt="twitterlogo">
+                        القروب
+                    </a>
+                    <a href="https://twitter.com/gd6422?s=21&t=cFjKO9vtPwIc4CIbXHrXyw"
+                        class="text-black text-decoration-none d-flex flex-column align-items-center my-3"
+                        target="_blank">
+                        <img src="imgs/Twitter-logo.svg.webp" class="img-fluid" alt="twitterlogo">
+                        تويتر
+                    </a>
+                    <a href="https://www.snapchat.com/add/gd64422tvtc"
+                        class="text-black text-decoration-none d-flex flex-column align-items-center my-3"
+                        target="_blank">
+                        <img src="imgs/snaplogo.jpg" class="img-fluid" alt="twitterlogo">
+                        ..منبر متدربي الكلية التقنية<br>
+                        gd64422tvtc
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center text-white py-3 mt-5 w-100">
+        جميع الحقوق محفوظة لـمتطوعي الكلية التقنية 2022&copy;
+    </footer>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
